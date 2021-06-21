@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 body {
+    background-image: url(240_F_25153486_YgrJywWTDTxYkpI54l5d5wj9Ty8hr04F.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -11,5 +15,15 @@ body {
     justify-content:center;
     height: 100vh;
     overflow: hidden;
-    margin:0;
+    margin:0; 
+}
+
+.container{
+    background-image: url(scroll.png);
+    padding: 10px;
+    background-repeat: no-repeat;
+    margin: auto;
+    top: 200px;
+    height: 690px;
+    width: 490px;
 }
