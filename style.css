@@ -170,3 +170,8 @@ a,a:hover,a:visited{
     animation: cursorAnim3 .5s forwards;
     border: 1px solid red;
 }
+
+.inactive{
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
