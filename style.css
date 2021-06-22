@@ -227,4 +227,46 @@ a,a:hover,a:visited{
   animation-delay: 3s;
 }
 
+#word-1{
+    transform: translateY(-100px);
+}
+#word-2{
+    transform: translateY(0px);
+}
+#word-3{
+    transform: translateY(100px);
+}
 
+.continu{
+    position: absolute;
+    color: #584300;
+    bottom: 70px;
+    right: 150px;
+    border: none;
+    font-family: 'Harry P', sans-serif;
+    background-color: transparent;
+    font-size: 40px;
+    opacity: 0;
+}
+
+.show-continue{
+    position: absolute;
+    color: #584300;
+    bottom: 70px;
+    right: 150px;
+    border: none;
+    font-family: 'Harry P', sans-serif;
+    background-color: transparent;
+    font-size: 40px;
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+
+.show-continue:hover{
+    transform: scale(1.5);
+    cursor: url(wand.png),default
+}
+
+b{
+    font-size: 50px;
+}
