@@ -16,8 +16,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin:0; 
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=100023),default ;
-
+    cursor: url(icons8-snitch-48.png), default;
 }
 
 .container{
@@ -30,6 +29,7 @@ body {
     height: 630px;
     width: 430px;
     transition: transform .2s ease-in;
+    cursor: url(icons8-harry-potter-48.png),default ;   
 }
 .logos{
     background-image: url(logo.png);
@@ -45,6 +45,7 @@ body {
     left: 60px;
     font-size:40px;
     text-shadow: 5px 5px 5px rgb(84, 55, 0);
+
 }
 .btn{
     position: relative;
@@ -53,7 +54,8 @@ body {
     bottom:275px;
     left: 165px;
     top: 15px;
-    cursor: url(HarryPotterCursorNormalWand.gif), default;
+    cursor: url(wand.png),default ;
+
 }
 .right{
     position: relative;
@@ -77,19 +79,23 @@ body {
 }
 .right:focus{
     outline:none;
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=26747), default;
+    cursor: url(wand.png),default ;
+
 }
 .wrong:focus{
     outline:none;
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=26747), default;
+    cursor: url(wand.png),default ;
+
 }
 .right:hover{
     transform:scale(.85);
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=26747), default;   
+    cursor: url(wand.png),default ;
+
 }
 .wrong:hover{
     transform:scale(.85);
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=26747), default;
+    cursor: url(wand.png),default ;
+
 }
 .container:hover{
     transform:scale(1.02);
@@ -97,6 +103,7 @@ body {
 a,a:hover,a:visited{
     text-decoration:none;
     color: black;
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=26747), default;
+    cursor: url(wand.png),default ;
+
 }
 
