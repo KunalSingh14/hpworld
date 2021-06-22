@@ -11,3 +11,13 @@ document.addEventListener('click', () => {
         cursor.classList.remove("expand");
     }, 500)
 })
+
+document.querySelector(".wrong").addEventListener("click",function(){
+    document.querySelector(".popup").classList.add("active");
+  });
+
+const container = document.querySelector('.container')
+document.querySelector(".wrong").addEventListener("click",function(){
+    container.classList.add('inactive')
+});
+   

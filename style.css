@@ -170,17 +170,8 @@ a,a:hover,a:visited{
     animation: cursorAnim3 .5s forwards;
     border: 1px solid rgb(255, 0, 0);
 }
-.popup {
-    position: absolute;
-    background-image: url(scroll.png);
-    padding: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 5px;
-    height: 630px;
-    width: 430px;
-    transform: rotate(270deg);
-    top: 70px;
-    max-width: 00px;
-    
+
+.inactive{
+    opacity: 0;
+    transition: all 0.3s ease-in;
 }
