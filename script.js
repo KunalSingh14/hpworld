@@ -12,12 +12,11 @@ document.addEventListener('click', () => {
     }, 500)
 })
 
-document.querySelector(".wrong").addEventListener("click",function(){
-    document.querySelector(".popup").classList.add("active");
-  });
+document.querySelector(".wrong").addEventListener("click", function () {
+    document.querySelectorAll(".words").classList.add("active");
+});
 
 const container = document.querySelector('.container')
-document.querySelector(".wrong").addEventListener("click",function(){
+document.querySelector(".wrong").addEventListener("click", function () {
     container.classList.add('inactive')
 });
-   
