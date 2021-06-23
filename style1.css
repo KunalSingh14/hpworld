@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     background-image: url(bgscroll1.png);
@@ -16,6 +17,8 @@ body {
     margin:0; 
     cursor: url(snitch2.gif), default;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    
 }
 
 .logo{
@@ -52,4 +55,15 @@ h1{
     transition: all 0.3s ease-in;
     cursor: url(snitch2.gif), default;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
+.begin{
+    position:absolute;
+    height:100px;
+    width:100px;
+    background-color: red;
+    top:3000px;
+    
+}
