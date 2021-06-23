@@ -30,7 +30,7 @@ body {
     position: relative;
     height: 50px;
     width: 50px;
-    left:300px;
+    left:290px;
     background-color: transparent;
     border: 1;
     cursor: url(snitch2.gif), default;
@@ -53,3 +53,12 @@ h1{
     cursor: url(snitch2.gif), default;
 }
 
+
+.no-good:hover span{
+    color: rgb(100, 21, 21);
+    transform: translateY(-30px);
+    font-size: 100px;
+    transform: scale(1.5);
+    cursor: url(snitch2.gif), default;
+    transition: all 0.3s ease-in-out;
+}
