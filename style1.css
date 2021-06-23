@@ -1,0 +1,52 @@
+@import url('HarryP-MVZ6w.woff');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(bgscroll1.png);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Harry P', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    margin:0; 
+    cursor: url(snitch2.gif), default;
+    overflow-x: hidden;
+}
+
+.logo{
+    position:absolute;
+    height:166px;
+    width:108px;
+    top:10px;
+    left: 10px;
+    background-image: url(Hp.png);
+}
+.deactivate{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left:300px;
+    background-color: transparent;
+    border: 1;
+}
+h1{
+    position: absolute;
+    font-size: 50px;
+    top:180px;
+}
+.tick{
+    position: relative;
+    top:-45px;
+    opacity: 0;
+
+}
+.click{
+opacity: 1;
+transform:scale(1.5);
+transition: all 0.3s ease-in;
+}
