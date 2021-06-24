@@ -62,3 +62,7 @@ h1{
     cursor: url(snitch2.gif), default;
     transition: all 0.3s ease-in-out;
 }
+
+.footstep.show{
+    opacity: 1;
+}
