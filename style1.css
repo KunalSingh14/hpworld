@@ -62,3 +62,43 @@ h1{
     cursor: url(snitch2.gif), default;
     transition: all 0.3s ease-in-out;
 }
+.title{
+    position: relative;
+    background-image: url(harrypotter.png);
+    height:158px;
+    width: 457px;
+    top: 754px;
+}
+.footstep{
+position: relative;
+height: 82px;
+width: 73px;
+background-image: url(foot.png)
+
+}
+#foot1{
+top: 880px;
+left: -400px;
+transform:rotateZ(30deg)
+}
+#foot2{
+top: 920px;
+left: -400px;
+transform:rotateZ(20deg)
+}
+#foot3{
+top: 940px;
+left: -350px;
+transform:rotateZ(00deg)
+}
+#foot4{
+top: 940px;
+left: -205px;
+transform:rotateZ(-10deg)
+}
+#foot5{
+top: 950px;
+left: -100px;
+transform:rotateZ(-30deg)
+}
+
