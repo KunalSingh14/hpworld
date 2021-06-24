@@ -62,12 +62,8 @@ h1{
     cursor: url(snitch2.gif), default;
     transition: all 0.3s ease-in-out;
 }
-<<<<<<< HEAD
 
-.footstep.show{
-    opacity: 1;
-}
-=======
+
 .title{
     position: relative;
     background-image: url(harrypotter.png);
@@ -79,9 +75,10 @@ h1{
 position: relative;
 height: 82px;
 width: 73px;
-background-image: url(foot.png)
-
+background-image: url(foot.png);
+opacity: 0;
 }
+
 #foot1{
 top: 880px;
 left: -400px;
@@ -107,5 +104,7 @@ top: 950px;
 left: -100px;
 transform:rotateZ(-30deg)
 }
+.footstep.show{
+    opacity: 1;
+}
 
->>>>>>> 1b8cab7289e76b43e80731aa12fed4fcd1444647
