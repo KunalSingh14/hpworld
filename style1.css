@@ -33,7 +33,7 @@ body {
     position: relative;
     height: 50px;
     width: 50px;
-    left:300px;
+    left:290px;
     background-color: transparent;
     border: 1;
     cursor: url(snitch2.gif), default;
@@ -55,6 +55,7 @@ h1{
     transition: all 0.3s ease-in;
     cursor: url(snitch2.gif), default;
 }
+<<<<<<< HEAD
 a{
     text-decoration: none;
     color: black;
@@ -67,3 +68,15 @@ a{
     top:3000px;
     
 }
+=======
+
+
+.no-good:hover span{
+    color: rgb(100, 21, 21);
+    transform: translateY(-30px);
+    font-size: 100px;
+    transform: scale(1.5);
+    cursor: url(snitch2.gif), default;
+    transition: all 0.3s ease-in-out;
+}
+>>>>>>> 29c122b10dc5b820220a652dcbf747fed2b8a3aa

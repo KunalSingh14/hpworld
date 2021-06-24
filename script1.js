@@ -25,9 +25,22 @@ $(document).ready(function () {
                 scrollTop: $(hash).offset().top
             }, 800, function () {
 
+<<<<<<< HEAD
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
             });
         } // End if
     });
 });
+=======
+const labels =document.querySelectorAll('.no-good')
+
+labels.forEach(label => {
+    
+    label.innerHTML = label.innerText
+        .split('')
+        .map((letter, idx) => `<span style="transition-delay:${idx * 50}ms">${letter}</span>`)
+        .join('')
+
+})
+>>>>>>> 29c122b10dc5b820220a652dcbf747fed2b8a3aa
