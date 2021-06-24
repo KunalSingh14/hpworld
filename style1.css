@@ -2,7 +2,6 @@
 
 *{
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 body {
     background-image: url(bgscroll1.png);
@@ -17,8 +16,6 @@ body {
     margin:0; 
     cursor: url(snitch2.gif), default;
     overflow-x: hidden;
-    scroll-behavior: smooth;
-    
 }
 
 .logo{
@@ -55,20 +52,6 @@ h1{
     transition: all 0.3s ease-in;
     cursor: url(snitch2.gif), default;
 }
-<<<<<<< HEAD
-a{
-    text-decoration: none;
-    color: black;
-}
-.begin{
-    position:absolute;
-    height:100px;
-    width:100px;
-    background-color: red;
-    top:3000px;
-    
-}
-=======
 
 
 .no-good:hover span{
@@ -79,4 +62,3 @@ a{
     cursor: url(snitch2.gif), default;
     transition: all 0.3s ease-in-out;
 }
->>>>>>> 29c122b10dc5b820220a652dcbf747fed2b8a3aa
