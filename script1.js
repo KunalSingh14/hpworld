@@ -13,3 +13,24 @@ labels.forEach(label => {
         .join('')
 
 })
+
+const foots = document.querySelectorAll('.footstep')
+
+window.addEventListener('scroll',checkBoxes)
+
+checkBoxes()
+
+function checkBoxes(){
+    const triggerBottom = (window.innerHeight/5*2)
+
+    foots.forEach(footstep => {
+        const boxTop = footstep.getBoundingClientRect().top
+
+        if(boxTop < triggerBottom){
+            footstep.classList.add('show')
+        }
+        else{
+            footstep.classList.remove('show')
+        }
+    })
+}
