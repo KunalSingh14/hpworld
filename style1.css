@@ -1,5 +1,21 @@
 @import url('HarryP-MVZ6w.woff');
-
+body{
+    background-image: url(bgscroll1.png);
+    background-size:cover;
+    display:flex;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.title{
+    display:flex;
+    height:150px;
+    width:457px;
+    background-image:url(harrypotter.png);
+}
+/* 
 *{
     box-sizing: border-box;
 }
@@ -16,6 +32,7 @@ body {
     margin:0; 
     cursor: url(snitch2.gif), default;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .logo{
@@ -25,6 +42,7 @@ body {
     top:10px;
     left: 10px;
     background-image: url(Hp.png);
+    object-fit: cover;
 }
 .deactivate{
     position: relative;
@@ -34,6 +52,11 @@ body {
     background-color: transparent;
     border: 1;
     cursor: url(snitch2.gif), default;
+}
+.main{
+    position: relative;
+    margin:0;
+    top: 100vw;
 }
 h1{
     position: absolute;
@@ -66,23 +89,28 @@ h1{
 .footstep.show{
     opacity: 1;
 }
+
 .title{
     position: relative;
     background-image: url(harrypotter.png);
     height:158px;
     width: 457px;
-    top: 754px;
+    top: 0px;
+    object-fit: cover;
 }
 .footstep{
 position: relative;
 height: 82px;
 width: 73px;
-background-image: url(foot.png)
-
+background-image: url(foot.png);
+opacity: 0;
 }
+
 #foot1{
+position: relative;
 top: 880px;
-left: -400px;
+left: 0px;
+margin:0;
 transform:rotateZ(30deg)
 }
 #foot2{
@@ -105,4 +133,7 @@ top: 950px;
 left: -100px;
 transform:rotateZ(-30deg)
 }
+.footstep.show{
+    opacity: 1;
+} */
 
