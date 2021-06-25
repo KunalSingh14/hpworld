@@ -2,7 +2,6 @@
 body{
     background-image: url(bgscroll1.png);
     background-size:cover;
-    display:flex;
 }
 .container{
     display:flex;
@@ -10,7 +9,6 @@ body{
     align-items:center;
 }
 .title{
-    display:flex;
     height:150px;
     width:457px;
     background-image:url(harrypotter.png);
