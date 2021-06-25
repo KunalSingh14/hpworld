@@ -9,9 +9,9 @@ body{
     align-items:center;
 }
 .title{
-    height:150px;
-    width:457px;
-    background-image:url(harrypotter.png);
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 /* 
 *{
