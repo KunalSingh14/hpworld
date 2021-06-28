@@ -1,137 +1,90 @@
-@import url('HarryP-MVZ6w.woff');
-body{
-    background-image: url(bgscroll1.png);
-    background-size:cover;
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"); */
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Harry Potter', sans-serif;
+    font-weight: lighter;    letter-spacing: 5px;
+    cursor: pointer;
 }
-.container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-.title{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-/* 
-*{
-    box-sizing: border-box;
-}
-body {
-    background-image: url(bgscroll1.png);
-    background-repeat: repeat;
-    background-size: cover;
-    font-family: 'Harry P', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(hogwarts.png);
+    background-attachment: fixed;
     height: 100vh;
-    margin:0; 
-    cursor: url(snitch2.gif), default;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+    background-size: cover;
+    background-position: center;
 }
 
-.logo{
-    position:absolute;
-    height:166px;
-    width:108px;
-    top:10px;
-    left: 10px;
-    background-image: url(Hp.png);
-    object-fit: cover;
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
 }
-.deactivate{
-    position: relative;
-    height: 50px;
-    width: 50px;
-    left:290px;
-    background-color: transparent;
-    border: 1;
-    cursor: url(snitch2.gif), default;
+
+ul li{
+    display: inline-block;
 }
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 400px;
+    height: auto;
+}
+
 .main{
-    position: relative;
-    margin:0;
-    top: 100vw;
+    max-width: 1200px;
+    margin: auto;
 }
-h1{
-    position: absolute;
-    font-size: 50px;
-    top:180px;
-}
-.tick{
-    position: relative;
-    top:-45px;
-    opacity: 0;
-    transition: all 0.3s ease-in;
-}
-.click{
-    opacity: 1;
-    transform:scale(1.5);
-    transition: all 0.3s ease-in;
-    cursor: url(snitch2.gif), default;
-}
-
-
-.no-good:hover span{
-    color: rgb(100, 21, 21);
-    transform: translateY(-30px);
-    font-size: 100px;
-    transform: scale(1.5);
-    cursor: url(snitch2.gif), default;
-    transition: all 0.3s ease-in-out;
-}
-
-.footstep.show{
-    opacity: 1;
-}
-
+ 
 .title{
-    position: relative;
-    background-image: url(harrypotter.png);
-    height:158px;
-    width: 457px;
-    top: 0px;
-    object-fit: cover;
-}
-.footstep{
-position: relative;
-height: 82px;
-width: 73px;
-background-image: url(foot.png);
-opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#foot1{
-position: relative;
-top: 880px;
-left: 0px;
-margin:0;
-transform:rotateZ(30deg)
+.title h1{
+    font-size: 70px;
+    color: #fff;
 }
-#foot2{
-top: 920px;
-left: -400px;
-transform:rotateZ(20deg)
-}
-#foot3{
-top: 940px;
-left: -350px;
-transform:rotateZ(00deg)
-}
-#foot4{
-top: 940px;
-left: -205px;
-transform:rotateZ(-10deg)
-}
-#foot5{
-top: 950px;
-left: -100px;
-transform:rotateZ(-30deg)
-}
-.footstep.show{
-    opacity: 1;
-} */
 
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
