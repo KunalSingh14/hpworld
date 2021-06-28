@@ -46,10 +46,13 @@ ul li.active a{
     color: black;
 }
 
-.logo img{
+.logo h1{
     float: left;
     width: 400px;
     height: auto;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 18px;
 }
 
 .main{
@@ -64,9 +67,11 @@ ul li.active a{
     transform: translate(-50%, -50%);
 }
 
-.title h1{
-    font-size: 70px;
-    color: #fff;
+.title img{
+    width: 300px;
+    height: auto;
+    /* font-size: 70px; */
+    color: #fff; 
 }
 
 .button{
