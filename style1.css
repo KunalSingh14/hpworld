@@ -10,6 +10,12 @@
     cursor: pointer;
 }
 
+body{
+    background-image: url(bgscroll1.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
 header{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(hogwarts_castle.png);
     background-attachment: fixed;
@@ -92,4 +98,22 @@ ul li.active a{
 .btn:hover{
     background-color: #fff;
     color: black;
+}
+
+.about{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 0.2)), url(bgscroll1.png);
+    background-size: cover;
+    color: #6e0f0f;
+    font-size: 10px;
+    margin: 25px;
+    padding: 30px 30px;
+    width: 40%;
+    /* border: 2px solid #202020; */
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 6px 6px 6px 6px #202020;
+}
+
+.about h1{
+    font-size: 40px;
 }
