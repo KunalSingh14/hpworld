@@ -51,7 +51,8 @@ function scrollFunction() {
     if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
 
         document.getElementById("navbar").style.background = "black";
-    } else {
+    }
+    else {
 
         document.getElementById("navbar").style.background = "none";
     }
