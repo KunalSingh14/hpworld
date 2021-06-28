@@ -34,3 +34,36 @@
 //         }
 //     })
 // }
+window.onscroll = function () { myFunction() };
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}
+document.onscroll = function () { scrollFunction() };
+function scrollFunction() {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+
+        document.getElementById("navbar").style.background = "black";
+    } else {
+
+        document.getElementById("navbar").style.background = "none";
+    }
+}
+// window.onscroll = function () {
+//     var nvbar = document.getElementsById('navbar')[0];
+
+
+//     if (window.scrollY > 100) {
+//         nvbar.style.background = 'red';
+//     }
+//     else {
+//         nvbar.style.background = '#4CFF00';
+//     }
+// }
