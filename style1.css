@@ -292,3 +292,25 @@ transition: all .2s ease-in-out;
 .grow:hover { 
 transform: scale(1.1); 
 }
+.cast-container{
+  display:flex;
+  justify-content: space-around;
+}
+.harry-cast{
+  height: 40vh;
+  width: auto;
+  align-items: center;
+  border-radius: 50%;
+}
+.ron-cast{
+  height: 40vh;
+  width: auto;
+  align-items: center;
+  border-radius: 50%;
+}
+.hermione-cast{
+  height: 40vh;
+  width: auto;
+  align-items: center;
+  border-radius: 50%;
+}
