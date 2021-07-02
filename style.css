@@ -1,5 +1,7 @@
-@import url('HarryP-MVZ6w.woff');
 
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,900&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -8,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    font-family: 'Harry P', sans-serif;
+    font-family: 'Harry Potter', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -243,7 +245,7 @@ a,a:hover,a:visited{
     bottom: 70px;
     right: 150px;
     border: none;
-    font-family: 'Harry P', sans-serif;
+    font-family: 'Harry Potter', sans-serif;
     background-color: transparent;
     font-size: 40px;
     opacity: 0;
@@ -255,7 +257,7 @@ a,a:hover,a:visited{
     bottom: 70px;
     right: 150px;
     border: none;
-    font-family: 'Harry P', sans-serif;
+    font-family: 'Harry Potter', sans-serif;
     background-color: transparent;
     font-size: 40px;
     opacity: 1;
