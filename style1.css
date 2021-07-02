@@ -214,7 +214,7 @@ ul li.active a{
 }
 .bgimage{
   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(hogwartsnight.jpg);
-  height: 100vh;
+  height: 20vh;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -229,9 +229,25 @@ ul li.active a{
   align-items: center;
 }
 .container-flex{
+  margin-top: 30px;
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* justify-content: center; */
 }
-.book1{
+.container-flex-one{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+.container-flex-two{
+  margin-top: 50px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+/* .book1{
  padding: 50px;
  width: 80px;
 }
@@ -268,7 +284,7 @@ ul li.active a{
  padding: 50px;
  width: 80px;
 
-}
+} */
 .grow { 
 transition: all .2s ease-in-out; 
 }
