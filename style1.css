@@ -8,6 +8,7 @@
     font-family: 'Harry Potter', sans-serif;
     font-weight: lighter;    letter-spacing: 5px;
     cursor: pointer;
+    box-sizing: border-box;
   }
   
   body{
@@ -150,25 +151,33 @@ ul li.active a{
     color: black;
 }
 
+.flex-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .about{
     background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 0.2)), url(bgscroll1.png);
     background-size: cover;
     color: #6e0f0f;
     font-size: 10px;
     margin: 25px;
+    margin-right: 100px;
     padding: 30px 30px;
-    width: 40%;
-    /* border: 2px solid #202020; */
+    width: 40vw;
+    /* borde4r: 2px solid #202020; */
     border-radius: 25px;
     transition: all 0.3s ease;
     box-shadow: 6px 6px 6px 6px #202020;
-    margin-right: 20px;
-    margin-left: 100px;
+    /* margin-right: 20px; */
+    /* margin-left: 100px; */
     
 }
-#about{
-  position: relative;
-  display: inline-block;
+.about-section{
+  /* display: inline-flex; */
+  /* position: relative; */
+  /* display: inline-block; */
   width: 100%;
 }
 
@@ -177,12 +186,22 @@ ul li.active a{
 }
 
 .jk{
-position: absolute;
-right: -500px;
-top: 20px;
+  
+  /* background-size: cover;
+  background-position: center; */
+  height: 40vh;
+  width: 20vw;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+/* float: right; */
+/* margin-left: 100px; */
 }
 .jkvid{
-  position: relative;
+  height: 40vh;
+  width: auto;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
 }
 .about_data{
@@ -199,4 +218,61 @@ top: 20px;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+ 
+}
+.b-title{
+  display: flex;
+  color: white;
+  padding: 50px;
+  font-size: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.container-flex{
+  display: flex;
+}
+.book1{
+ padding: 50px;
+ width: 80px;
+}
+.book2{
+ padding: 50px;
+ width: 80px;
+
+}
+.book3{
+ padding: 50px;
+ width: 80px;
+
+}
+.book4{
+ padding: 50px;
+ width: 80px;
+}
+.book5{
+ padding: 50px;
+ width: 80px;
+
+}
+.book6{
+ padding: 50px;
+ width: 80px;
+
+}
+.book7{
+ padding: 50px;
+ width: 80px;
+
+}
+.book8{
+ padding: 50px;
+ width: 80px;
+
+}
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
 }

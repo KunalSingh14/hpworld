@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/harry-potter');
+@import url('HarryP-MVZ6w.woff');
 
 *{
     box-sizing: border-box;
@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    font-family: 'Harry Potter', sans-serif;
+    font-family: 'Harry P', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
