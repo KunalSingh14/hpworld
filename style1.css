@@ -8,20 +8,23 @@
     padding: 0;
     font-family: 'Harry Potter', sans-serif;
     font-weight: lighter;    letter-spacing: 5px;
-    cursor: pointer;
     box-sizing: border-box;
+    cursor: url(wand.png), default;
+    scroll-behavior: smooth;
   }
   
   body{
-  overflow-x: hidden;
-  background-color: black;
+    overflow-x: hidden;
+    background-color: black;
+    /* cursor: url(snitch2.gif), default; */
 }
   .back_bg{
     overflow: hidden;
     background-image: url(bgscroll1.png);
     background-repeat: repeat-y;
     background-size: cover;
-  }
+}
+  
   
   
   header{
