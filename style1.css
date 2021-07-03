@@ -301,13 +301,14 @@ transform: scale(1.1);
   margin: 20px 50px;
   
   display:flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 40vh;
   width: 100vw;
   align-items: center;
   /* justify-content: center; */
   border-radius: 50%;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 .harry-cast{
   height: 20vh;
@@ -361,76 +362,77 @@ transform: scale(1.1);
   margin: 20px 50px;
   
   display:flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   height: 40vh;
   width: 100vw;
   align-items: center;
   /* justify-content: center; */
   border-radius: 50%;
   margin-top: 0px;
+  margin-left: 0px;
 }
 
 .snape-cast{
-  height: 20vh;
-  width: 20vw;
+  height: 17vh;
+  width: 17vw;
   align-items: center;
   border-radius: 50%;
 }
 .snapevid{
-  height: 20vh;
+  height: 17vh;
   width: auto;
   align-items: center;
   border-radius: 50%;
 }
 .dumbledore-cast{
-  height: 20vh;
-  width: 20vw;
+ height: 17vh;
+  width: 17vw;
   align-items: center;
   border-radius: 50%;
 }
 .dumbledorevid{
-  height: 20vh;
+  height: 17vh;
   width: auto;
   align-items: center;
   border-radius: 50%;
 }
 .hagrid-cast{
-  height: 20vh;
-  width: 20vw;
+ height: 17vh;
+  width: 17vw;
   align-items: center;
   border-radius: 50%;
 }
 
 .hagridvid{
-  height: 20vh;
+  height: 17vh;
   width: auto;
   align-items: center;
   border-radius: 50%;
 }
 
 .finch-cast{
-  height: 20vh;
-  width: 20vw;
+  height: 17vh;
+  width: 17vw;
   align-items: center;
   border-radius: 50%;
 }
 
 .finchvid{
-  height: 20vh;
+  height: 17vh;
   width: auto;
   align-items: center;
   border-radius: 50%;
 }
 
 .blackcast-cast{
-  height: 20vh;
-  width: 20vw;
+  height: 17vh;
+  width: 17vw;
   align-items: center;
   border-radius: 50%;
 }
 
 .blackvid{
-  height: 20vh;
+  height: 17vh;
   width: auto;
   align-items: center;
   border-radius: 50%;
