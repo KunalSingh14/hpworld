@@ -229,6 +229,8 @@ ul li.active a{
   font-size: 80px;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  padding-bottom: 0;
 }
 .container-flex{
   margin-top: 30px;
@@ -236,7 +238,14 @@ ul li.active a{
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: column;
+  
   /* justify-content: center; */
+}
+
+.container-flex img{
+  border-radius: 5% 5% 5% 5%;
+  height: 41vh;
+  width: auto;
 }
 .container-flex-one{
   justify-content: space-around;
@@ -250,44 +259,7 @@ ul li.active a{
   flex-direction: row;
 
 }
-/* .book1{
- padding: 50px;
- width: 80px;
-}
-.book2{
- padding: 50px;
- width: 80px;
 
-}
-.book3{
- padding: 50px;
- width: 80px;
-
-}
-.book4{
- padding: 50px;
- width: 80px;
-}
-.book5{
- padding: 50px;
- width: 80px;
-
-}
-.book6{
- padding: 50px;
- width: 80px;
-
-}
-.book7{
- padding: 50px;
- width: 80px;
-
-}
-.book8{
- padding: 50px;
- width: 80px;
-
-} */
 .grow { 
 transition: all .2s ease-in-out; 
 }
@@ -310,52 +282,6 @@ transform: scale(1.1);
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.harry-cast{
-  height: 20vh;
-  width: 20vw;
-  align-items: center;
-  border-radius: 50%;
-}
-.harryvid{
-  height: 20vh;
-  width: auto;
-  align-items: center;
-  border-radius: 50%;
-}
-.ron-cast{
-  height: 20vh;
-  width: 20vw;
-  align-items: center;
-  border-radius: 50%;
-}
-.ronvid{
-  height: 20vh;
-  width: auto;
-  align-items: center;
-  border-radius: 50%;
-}
-.hermione-cast{
-  height: 20vh;
-  width: 20vw;
-  align-items: center;
-  border-radius: 50%;
-}
-
-.hermoinevid{
-  height: 20vh;
-  width: auto;
-  align-items: center;
-  border-radius: 50%;
-}
-.titlecast{
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  font-size: 100px;
-  margin-top: 40px;
-  color: #6e0f0f;
-}
-
 .cast-container-one{
   /* margin-left: 100px;
   margin-right: 50px; */
@@ -366,76 +292,84 @@ transform: scale(1.1);
   height: 40vh;
   width: 100vw;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   border-radius: 50%;
   margin-top: 0px;
-  margin-left: 0px;
+  /* margin-left: 0px; */
 }
 
-.snape-cast{
-  height: 17vh;
-  width: 17vw;
-  align-items: center;
-  border-radius: 50%;
-}
-.snapevid{
+.cast-container-one video{
+  /* border-radius: 30%; */
   height: 17vh;
   width: auto;
   align-items: center;
   border-radius: 50%;
 }
-.dumbledore-cast{
- height: 17vh;
-  width: 17vw;
-  align-items: center;
-  border-radius: 50%;
-}
-.dumbledorevid{
-  height: 17vh;
-  width: auto;
-  align-items: center;
-  border-radius: 50%;
-}
-.hagrid-cast{
- height: 17vh;
-  width: 17vw;
-  align-items: center;
-  border-radius: 50%;
-}
-
-.hagridvid{
-  height: 17vh;
-  width: auto;
-  align-items: center;
-  border-radius: 50%;
-}
-
-.finch-cast{
+.cast-container-one div{
   height: 17vh;
   width: 17vw;
   align-items: center;
   border-radius: 50%;
 }
-
-.finchvid{
-  height: 17vh;
+.cast-container video{
+  /* border-radius: 30%; */
+  height: 20vh;
   width: auto;
   align-items: center;
   border-radius: 50%;
 }
-
-.blackcast-cast{
-  height: 17vh;
-  width: 17vw;
+.cast-container div{
+  height: 20vh;
+  width: 20vw;
   align-items: center;
   border-radius: 50%;
 }
 
-.blackvid{
-  height: 17vh;
-  width: auto;
+.titlecast{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 100px;
+  margin-top: 40px;
+  color: #6e0f0f;
+}
+
+.m-title{
+  display: flex;
+  color: #6e0f0f;
+  padding: 50px;
+  font-size: 80px;
+  justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  padding-bottom: 0;
+}
+.container-flex-movies{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.container-flex-movies-one{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+.container-flex-movies-two{
+  margin-top: 50px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.container-flex-movies img{
+  border-radius: 5% 5% 5% 5%;
+  height: 41vh;
+  width: auto;
+  box-shadow: 6px 6px 6px 10px #636363; 
 }
 
 .footer {
@@ -451,7 +385,7 @@ transform: scale(1.1);
 }
 
 .developer{
-  font-size: 5px;
+  font-size: 8px;
   font-family : 'Poppins','serif';
   font-style: normal;
   font-weight: 300;
@@ -491,11 +425,7 @@ transform: scale(1.1);
 
   transition: all 0.1s ease;
 }
-/* .seperation {
-  position: absolute;
-  border-left: 5px solid black;
-  height: 200px;
-} */
+
 .kunal i:hover ,.harsh i:hover{
   font-size: 35px;
   color: #fff;
