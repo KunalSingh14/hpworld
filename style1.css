@@ -14,10 +14,15 @@
   
   body{
   overflow-x: hidden;
+  background-color: black;
+}
+  .back_bg{
+    overflow: hidden;
     background-image: url(bgscroll1.png);
     background-repeat: repeat-y;
     background-size: cover;
   }
+  
   
   header{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(hogwarts_castle.png);
@@ -369,7 +374,7 @@ transform: scale(1.1);
   border-radius: 5% 5% 5% 5%;
   height: 41vh;
   width: auto;
-  box-shadow: 6px 6px 6px 10px #636363; 
+  box-shadow: 6px 6px 6px 10px rgba(30, 30, 30, 0.421); 
 }
 
 .footer {
@@ -430,4 +435,16 @@ transform: scale(1.1);
   font-size: 35px;
   color: #fff;
   transition: all 0.1s ease;
+}
+.endvid{
+  height: auto;
+  width: 100vw;
+  background-attachment: fixed;
+}
+.endvid h1{
+  position: absolute;
+  color: white;
+  top: 4200px;
+  left: 26vw;
+  font-size: 100px;
 }
